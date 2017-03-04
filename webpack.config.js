@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devServer: {
@@ -17,9 +18,32 @@ module.exports = {
     filename: './bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.css$/, include: path.resolve(__dirname, 'app'), loader: 'style-loader!css-loader' },
-      { test: /\.js[x]?$/, include: path.resolve(__dirname, 'app'), exclude: /node_modules/, loader: 'babel-loader' }
+    rules: [{
+      test: /\.scss|sass$/,
+      use: [{
+        loader: 'style-loader' // creates style nodes from JS strings
+      }, {
+        loader: 'css-loader' // translates CSS into CommonJS
+      }, {
+        loader: 'sass-loader' // compiles Sass to CSS
+      }]
+    },
+    {
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+        use: 'css-loader'
+      })
+    },
+    {
+      test: /\.js[x]?$/,
+      exclude: [/node_modules/],
+      use: [{
+        loader: 'babel-loader',
+        options: {
+          presets: ['es2015']
+        }
+      }],
+    }
     ]
   },
   resolve: {
@@ -27,6 +51,9 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+    new OpenBrowserPlugin({
+      url: 'http://localhost:8080'
+    }),
+    new ExtractTextPlugin('styles.css')
   ]
 };

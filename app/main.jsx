@@ -1,17 +1,8 @@
-// import React from 'react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
-// export default () => <h1>Hello World</h1>;
-
-/*
-export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <h1>Hello World</h1>
-    );
-  }
-}
- */
+ReactDOM.render(
+  <App />,
+  document.body.appendChild(document.createElement('div'))
+);

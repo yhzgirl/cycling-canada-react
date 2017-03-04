@@ -1,19 +1,10 @@
 import React from 'react';
+import Header from './header.jsx';
 
-require('./App.css');
+require('../styles/App.css');
 
-export default () => <h1>Hello World</h1>;
-
-/*
-export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <h1>Hello World</h1>
-    );
-  }
+export default function App() {
+  return (
+    <Header />
+  );
 }
-*/
