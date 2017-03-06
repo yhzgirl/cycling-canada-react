@@ -5,16 +5,14 @@
   a:hover {
     text-decoration: none;
   }
-  
+
   button.navbar-toggle {
     background-color: #FCFCFC;
     border: none;
   }
-  
+
   h1 {
     color: #FCFCFC;
-    font-family: 'Text Me One', Helvetica, Arial, sans-serif;
-    font-weight: 600;
     margin: 40px auto;
     display: table;
     @media screen and (max-width: 768px) {
@@ -22,16 +20,16 @@
       margin-right: 20px;
     }
   }
-  
+
   a {
     color: #FCFCFC;
     font-size: 1.1em;
   }
-  
+
   .navbar-header {
     float: none;
   }
-  
+
   .menu > li {
     a {
     font-size: 1.3em;
@@ -42,15 +40,15 @@
       opacity: 0.95;
     }
   }
-  
+
   .dropdown-toggle {
     background-color: #0196d5;
-  } 
+  }
   .dropdown-menu > li > a {
     font-family: 'Lato', Helvetica, Arial, sans-serif;
     color: #0196d5;
   }
-  
+
   .social-media {
     a:hover {
       background-color: transparent;

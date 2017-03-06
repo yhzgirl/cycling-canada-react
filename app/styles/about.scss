@@ -1,0 +1,16 @@
+#about-us {
+	max-width: 1200px;
+	@media (max-width: 768px) {
+		padding: 0;
+	}
+}
+
+.about img {
+	width: 270px;
+	margin: 20px auto;
+}
+
+.about {
+	margin: 0 auto 70px;
+	padding: 0 65px;
+}

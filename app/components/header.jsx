@@ -1,7 +1,9 @@
 import React from 'react';
 import { Navbar, NavDropdown, NavItem, Nav, MenuItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
-require('../styles/App.css');
+
+require('../styles/App.scss');
 require('../styles/header.scss');
 
 export default function Header() {
@@ -14,13 +16,29 @@ export default function Header() {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav className="menu" pullLeft>
-            <NavItem eventKey={1} href="#">Vlogs</NavItem>
-            <NavItem eventKey={2} href="#">Route</NavItem>
-            <NavItem eventKey={3} href="#">Gear</NavItem>
+            <NavItem eventKey={1} href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw" >Vlog</NavItem>
+
+            <LinkContainer to="/route">
+              <NavItem eventKey={2} >Route</NavItem>
+            </LinkContainer>
+
+            <LinkContainer to="/gear">
+              <NavItem eventKey={3}>Gear</NavItem>
+            </LinkContainer>
+
             <NavDropdown eventKey={4} title="More Info" id="basic-nav-dropdown">
-              <MenuItem eventKey={4.1}>About Us</MenuItem>
-              <MenuItem eventKey={4.2}>Contact</MenuItem>
-              <MenuItem eventKey={4.3}>FAQ&apos;s</MenuItem>
+              <LinkContainer to="/about">
+                <MenuItem eventKey={4.1}>About Us</MenuItem>
+              </LinkContainer>
+
+              <LinkContainer to="/Contact">
+                <MenuItem eventKey={4.2}>Contact</MenuItem>
+              </LinkContainer>
+
+              <LinkContainer to="/faq">
+                <MenuItem eventKey={4.3}>FAQ&apos;s</MenuItem>
+              </LinkContainer>
+
             </NavDropdown>
           </Nav>
           <Nav pullRight className="social-media">
