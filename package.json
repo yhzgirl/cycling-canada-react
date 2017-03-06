@@ -22,7 +22,8 @@
     "extract-text-webpack-plugin": "^2.0.0",
     "react": "15.x",
     "react-bootstrap": "^0.30.7",
-    "react-dom": "15.x"
+    "react-dom": "15.x",
+    "react-router": "^3.0.2"
   },
   "devDependencies": {
     "babel-core": "6.x",

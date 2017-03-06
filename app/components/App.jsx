@@ -3,8 +3,15 @@ import Header from './header.jsx';
 
 require('../styles/App.css');
 
-export default function App() {
+export default React.createClass({
+  render() {
   return (
-    <Header />
+    <div>    
+      <Header />
+      <div>
+        {this.props.children}
+      </div>
+    </div>
   );
 }
+});
