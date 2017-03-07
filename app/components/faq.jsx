@@ -7,9 +7,9 @@ require('../styles/faq.scss');
 export default () =>
   <Grid id="faq" fluid>
     <Row>
-      <Col>
-        <PageHeader >FAQ</PageHeader>
+        <PageHeader>FAQ</PageHeader>
 			  <h3>Every time we told a friend or family member of our plans to cycle across Canada they had plenty of questions.  We thought you might have some too and would like to know the answers.</h3>
+      <Col >
         <h4><strong>Q: You are doing what?</strong></h4>
         <p>We're cycling across Canada raising money and awareness of an inflammatory bowel disease called Crohn's. We will be cycling self supported, meaning we will carry all our own gear.</p>
         <h4><strong>Q: How long will it take?</strong></h4>
