@@ -4,6 +4,9 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import Home from './components/home.jsx';
 import About from './components/about.jsx';
+import FAQ from './components/faq.jsx';
+import Route_Map from './components/route_map.jsx';
+import Contact from './components/contact.jsx';
 import App from './components/App';
 
 ReactDOM.render((
@@ -11,6 +14,9 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="about" component={About} />
+      <Route path="faq" component={FAQ} />
+      <Route path="route_map" component={Route_Map} />
+      <Route path="contact" component={Contact} />
     </Route>
   </Router>
 ), document.getElementById('cycling-canada'));
