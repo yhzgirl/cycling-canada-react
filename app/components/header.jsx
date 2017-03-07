@@ -12,11 +12,11 @@ export default function Header() {
       <Navbar collapseOnSelect id="header">
         <Navbar.Header>
           <a href="/"><h1>Cycling Across Canada for Crohn&apos;s</h1></a>
-          <Navbar.Toggle />
+        <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav className="menu" pullLeft>
-            <NavItem eventKey={1} href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw" >Vlog</NavItem>
+          <Nav bsStyle="pills" className="menu" pullLeft>
+              <NavItem eventKey={1} target="_blank" href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw" >Vlog</NavItem>
 
             <LinkContainer to="/route_map">
               <NavItem eventKey={2} >Route</NavItem>

@@ -7,6 +7,7 @@ import About from './components/about.jsx';
 import FAQ from './components/faq.jsx';
 import Route_Map from './components/route_map.jsx';
 import Contact from './components/contact.jsx';
+import Gear from './components/gear.jsx';
 import App from './components/App';
 
 ReactDOM.render((
@@ -17,6 +18,7 @@ ReactDOM.render((
       <Route path="faq" component={FAQ} />
       <Route path="route_map" component={Route_Map} />
       <Route path="contact" component={Contact} />
+      <Route path="gear" component={Gear} />
     </Route>
   </Router>
 ), document.getElementById('cycling-canada'));
