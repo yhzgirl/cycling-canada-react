@@ -3,7 +3,10 @@
 	max-width: 850px;
 }
 
-
 .youtube {
   margin-bottom: 40px;
+}
+
+iframe, object, embed {
+    max-width: 100%;
 }

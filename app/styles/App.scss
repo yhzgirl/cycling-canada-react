@@ -1,9 +1,14 @@
+$font-stack: Helvetica, Arial, sans-serif;
+$navy-blue: #2a3b62;
+$blue: #2F4F99;
+
 p {
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', $font-stack;
+  font-size: 1.4em; 
 }
 
 a {
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', $font-stack;
 	text-decoration: none;
 	&:hover {
 		text-decoration: none;
@@ -11,27 +16,27 @@ a {
 }
 
 h1 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', $font-stack;
 	text-align: center;
 	font-size: 2.4em;
-	color: #2a3b62;
+	color: $navy-blue;
 }
 
 h2 {
-	font-family: 'Noteworthy', sans-serif;
+	font-family: 'Noteworthy', $font-stack;
 	text-align: center;
-	color: #2F4F99;
+	color: $blue;
 	margin-bottom: 20px;
 }
 
 h3 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', $font-stack;
 	text-align: center;
-	color: #2a3b62;
+	color: $navy-blue;
 }
 
 h4 {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', $font-stack;
 	margin-top: 40px;
 }
 
@@ -39,7 +44,7 @@ h4 {
   margin-top: 10px;
   margin-bottom: 20px;
 	border-bottom: none;
-	color: #2F4F99;
+	color: $blue;
 }
 
 .footer {
