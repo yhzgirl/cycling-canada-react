@@ -14,12 +14,14 @@ export default () =>
         <Col className="page-description" lg={9}>
           <p>On June 11th, 2016 we left to go on the biggest ride of our lives, cycling across Canada self supported
             from Vancouver to Halifax (aprox 6650km). It was the ride of a lifetime and the start of our bike touring
-            adventures.</p>
+            adventures.
+          </p> &nbsp;
 
           <p>Here you&#39;ll find information about our gear, route and if you would like to see our video
             diaries you will find them on our <a href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw">
               YouTube channel</a>
-          </p>
+          </p>&nbsp;
+
 					<p>Thank you to everyone who donated, $8500 was raised far exceeding our target of $6600.</p>
         </Col>
       </Row>
