@@ -28,17 +28,17 @@ export default () =>
       <Row>
         <Col className="youtube" lg={12}>
           <h2>The Vlog - <strike>Follow</strike> Watch the adventure <i class="fa fa-share fa-rotate-90"></i></h2>
-          <iframe className="center-block" width="560" height="350" src="https://www.youtube.com/embed/Ovl7Zcuq6Yc" frameborder="0" allowfullscreen />
+          <iframe className="center-block" width="560" height="350" src="https://www.youtube.com/embed/Ovl7Zcuq6Yc"/>
         </Col>
       </Row>
         <Row>
           <Col className="strava" lg={6}>
 					  <h2>How far Michelle's travelled this week</h2>
-            <iframe className="center-block" height='176' width='400' allowtransparency='true' src='https://www.strava.com/athletes/6288849/activity-summary/7fd9e0e1cfb50f535a4affd0e0e692e3f80c8916' />
+            <iframe className="center-block" height='176' width='400' src='https://www.strava.com/athletes/6288849/activity-summary/7fd9e0e1cfb50f535a4affd0e0e692e3f80c8916' />
           </Col>
           <Col className="strava" lg={6}>
 					  <h2>How far Nathan's travelled this week</h2>
-            <iframe className="center-block" height='176' width='400' allowtransparency='true' src='https://www.strava.com/athletes/1952277/activity-summary/008b86e17a31f89e59f18526eb2da9c07bb07983' />
+            <iframe className="center-block" height='176' width='400' src='https://www.strava.com/athletes/1952277/activity-summary/008b86e17a31f89e59f18526eb2da9c07bb07983' />
           </Col>
       </Row>
   </Grid>
