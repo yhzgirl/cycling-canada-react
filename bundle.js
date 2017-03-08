@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "311704449fbf82ce46ad"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "e464336601565c104135"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotMainModule = true; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -8945,7 +8945,7 @@ exports = module.exports = __webpack_require__(41)();
 
 
 // module
-exports.push([module.i, "#header {\n  background-color: #0196D5;\n  border: none;\n  border-radius: 0px; }\n  #header a:hover {\n    text-decoration: none; }\n  #header button.navbar-toggle {\n    background-color: #FCFCFC;\n    border: none; }\n  #header .menu > li a {\n    background: none; }\n  #header h1 {\n    color: #FCFCFC;\n    margin: 40px auto;\n    display: table; }\n    @media screen and (max-width: 768px) {\n      #header h1 {\n        margin-left: 20px;\n        margin-right: 20px; } }\n  #header .dropdown-menu {\n    border: none; }\n  #header li.dropdown.open {\n    background: #FCFCFC;\n    color: #0196d5; }\n  #header a {\n    color: #FCFCFC;\n    font-size: 1.1em; }\n  #header .navbar-header {\n    float: none; }\n  #header .menu > li a {\n    font-size: 1.3em; }\n  #header .menu > li a:hover {\n    background-color: #FCFCFC;\n    color: #0196d5;\n    opacity: 0.95; }\n  #header .dropdown-toggle {\n    background-color: #0196d5; }\n  #header .dropdown-menu > li > a {\n    font-family: 'Lato', Helvetica, Arial, sans-serif;\n    color: #0196d5; }\n  #header .social-media a:hover {\n    background-color: transparent; }\n  @media screen and (max-width: 768px) {\n    #header .social-media {\n      margin-left: 10px;\n      font-size: .60em; } }\n", ""]);
+exports.push([module.i, "#header {\n  background-color: #0196D5;\n  border: none;\n  border-radius: 0px; }\n  #header a:hover {\n    text-decoration: none; }\n  #header button.navbar-toggle {\n    background-color: #FCFCFC;\n    border: none; }\n  #header .menu > li a {\n    background: none; }\n  #header h1 {\n    color: #FCFCFC;\n    margin: 40px auto;\n    display: table; }\n    @media screen and (max-width: 768px) {\n      #header h1 {\n        margin-left: 20px;\n        margin-right: 20px; } }\n  #header .dropdown-menu {\n    border: none; }\n  #header li.dropdown.open {\n    background: #FCFCFC;\n    color: #0196d5; }\n  #header a {\n    color: #FCFCFC;\n    font-size: 1.1em; }\n  #header .navbar-header {\n    float: none; }\n  #header .menu > li a {\n    font-size: 1.3em;\n    color: #FCFCFC; }\n  #header .menu > li a:hover {\n    background-color: #FCFCFC;\n    color: #0196d5;\n    opacity: 0.95; }\n  #header .dropdown-toggle {\n    background-color: #0196d5;\n    color: #0196D5; }\n  #header .dropdown-menu > li > a {\n    font-family: 'Lato', Helvetica, Arial, sans-serif;\n    color: #0196d5; }\n  #header .social-media a:hover {\n    background-color: transparent; }\n  @media screen and (max-width: 768px) {\n    #header .social-media {\n      margin-left: 10px;\n      font-size: .60em; } }\n", ""]);
 
 // exports
 
@@ -20916,6 +20916,7 @@ exports.default = function () {
             null,
             'On June 11th, 2016 we left to go on the biggest ride of our lives, cycling across Canada self supported from Vancouver to Halifax (aprox 6650km). It was the ride of a lifetime and the start of our bike touring adventures.'
           ),
+          ' \xA0',
           _react2.default.createElement(
             'p',
             null,
@@ -20926,6 +20927,7 @@ exports.default = function () {
               'YouTube channel'
             )
           ),
+          '\xA0',
           _react2.default.createElement(
             'p',
             null,
