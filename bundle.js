@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b748149f8c9c3b3e85b4"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "43530f15010530df5908"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotMainModule = true; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -8875,7 +8875,7 @@ exports = module.exports = __webpack_require__(41)();
 
 
 // module
-exports.push([module.i, "p {\n  font-family: 'Lato', Helvetica, Arial, sans-serif; }\n\na {\n  font-family: 'Lato', Helvetica, Arial, sans-serif;\n  text-decoration: none; }\n  a:hover {\n    text-decoration: none; }\n\nh1 {\n  font-family: 'Nunito', sans-serif;\n  text-align: center;\n  font-size: 2.4em;\n  color: #2a3b62; }\n\nh2 {\n  font-family: 'Noteworthy', sans-serif;\n  text-align: center;\n  color: #2F4F99;\n  margin-bottom: 20px; }\n\nh3 {\n  font-family: 'Nunito', sans-serif;\n  text-align: center;\n  color: #2a3b62; }\n\nh4 {\n  font-family: 'Nunito', sans-serif;\n  margin-top: 40px; }\n\n.page-header {\n  margin-top: 10px;\n  margin-bottom: 20px;\n  border-bottom: none;\n  color: #2F4F99; }\n\n.footer img {\n  width: 100%;\n  padding: 20px 20px; }\n", ""]);
+exports.push([module.i, "p {\n  font-family: \"Lato\", Helvetica, Arial, sans-serif;\n  font-size: 1.4em; }\n\na {\n  font-family: \"Lato\", Helvetica, Arial, sans-serif;\n  text-decoration: none; }\n  a:hover {\n    text-decoration: none; }\n\nh1 {\n  font-family: \"Nunito\", Helvetica, Arial, sans-serif;\n  text-align: center;\n  font-size: 2.4em;\n  color: #2a3b62; }\n\nh2 {\n  font-family: \"Noteworthy\", Helvetica, Arial, sans-serif;\n  text-align: center;\n  color: #2F4F99;\n  margin-bottom: 20px; }\n\nh3 {\n  font-family: \"Nunito\", Helvetica, Arial, sans-serif;\n  text-align: center;\n  color: #2a3b62; }\n\nh4 {\n  font-family: \"Nunito\", Helvetica, Arial, sans-serif;\n  margin-top: 40px; }\n\n.page-header {\n  margin-top: 10px;\n  margin-bottom: 20px;\n  border-bottom: none;\n  color: #2F4F99; }\n\n.footer img {\n  width: 100%;\n  padding: 20px 20px; }\n", ""]);
 
 // exports
 
@@ -8917,7 +8917,7 @@ exports = module.exports = __webpack_require__(41)();
 
 
 // module
-exports.push([module.i, "h3 {\n  margin-bottom: 20px; }\n\np {\n  font-size: 1.4em;\n  margin: 5px auto;\n  max-width: 900px; }\n", ""]);
+exports.push([module.i, "p {\n  margin: 5px auto;\n  max-width: 950px; }\n", ""]);
 
 // exports
 
@@ -8931,7 +8931,7 @@ exports = module.exports = __webpack_require__(41)();
 
 
 // module
-exports.push([module.i, "img {\n  margin-bottom: 40px; }\n\n.cutout-image {\n  margin-top: 80px; }\n\nh4 {\n  color: #0196d5;\n  font-size: 1.7em;\n  text-align: center; }\n", ""]);
+exports.push([module.i, "img {\n  margin-bottom: 40px; }\n\n.cutout-image {\n  margin-top: 80px; }\n\nh4 {\n  color: #0196d5;\n  font-size: 1.8em;\n  text-align: center; }\n", ""]);
 
 // exports
 
@@ -8959,7 +8959,7 @@ exports = module.exports = __webpack_require__(41)();
 
 
 // module
-exports.push([module.i, ".page-description {\n  margin-top: 40px;\n  max-width: 850px; }\n\n.youtube {\n  margin-bottom: 40px; }\n", ""]);
+exports.push([module.i, ".page-description {\n  margin-top: 40px;\n  max-width: 850px; }\n\n.youtube {\n  margin-bottom: 40px; }\n\niframe, object, embed {\n  max-width: 100%; }\n", ""]);
 
 // exports
 
@@ -20633,98 +20633,98 @@ __webpack_require__(519);
 
 exports.default = function () {
   return _react2.default.createElement(
-    _reactBootstrap.Grid,
-    { id: 'faq', fluid: true },
+    'div',
+    null,
     _react2.default.createElement(
-      _reactBootstrap.Row,
-      null,
+      _reactBootstrap.Grid,
+      { id: 'faq' },
       _react2.default.createElement(
         _reactBootstrap.PageHeader,
         null,
         'FAQ'
       ),
       _react2.default.createElement(
-        'h3',
-        null,
-        'Every time we told a friend or family member of our plans to cycle across Canada they had plenty of questions.  We thought you might have some too and would like to know the answers.'
-      ),
-      _react2.default.createElement(
-        _reactBootstrap.Col,
+        _reactBootstrap.Row,
         null,
         _react2.default.createElement(
-          'h4',
+          _reactBootstrap.Col,
           null,
           _react2.default.createElement(
-            'strong',
+            'h4',
             null,
-            'Q: You are doing what?'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'We\'re cycling across Canada raising money and awareness of an inflammatory bowel disease called Crohn\'s. We will be cycling self supported, meaning we will carry all our own gear.'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Q: You are doing what?'
+            )
+          ),
           _react2.default.createElement(
-            'strong',
+            'p',
             null,
-            'Q: How long will it take?'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'It\'s about 6700km/4200miles from Vancouver to Halifax. As to how long this takes, there are varying answers. We\'d like to enjoy our time cycling across Canada so we\'ll plan to take in some sites or stop for a swim on a hot day in order to have things to look forward to along the way. We do have a limited amount of time (we have a plane to catch 12Sept) we believe it will take us between 65 and 70 days.'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
+            'We\'re cycling across Canada raising money and awareness of an inflammatory bowel disease called Crohn\'s. We will be cycling self supported, meaning we will carry all our own gear.'
+          ),
           _react2.default.createElement(
-            'strong',
+            'h4',
             null,
-            'Q: Where will you stay?'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'We\'ll be using a combination of accommodation friends places, hostels, campgrounds, wild camping and warmshowers.com a cycling community which offers a place to stay (a bed or a yard for a tent) to fellow cyclist.'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Q: How long will it take?'
+            )
+          ),
           _react2.default.createElement(
-            'strong',
+            'p',
             null,
-            'Q: What about bears?'
-          )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'We have lots to learn about camping in Canada and how to camp safely amongst bears is one of them.'
-        ),
-        _react2.default.createElement(
-          'h4',
-          null,
+            'It\'s about 6700km/4200miles from Vancouver to Halifax. As to how long this takes, there are varying answers. We\'d like to enjoy our time cycling across Canada so we\'ll plan to take in some sites or stop for a swim on a hot day in order to have things to look forward to along the way. We do have a limited amount of time (we have a plane to catch 12Sept) we believe it will take us between 65 and 70 days.'
+          ),
           _react2.default.createElement(
-            'strong',
+            'h4',
             null,
-            'Q: What about your jobs?'
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Q: Where will you stay?'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'We\'ll be using a combination of accommodation friends places, hostels, campgrounds, wild camping and warmshowers.com a cycling community which offers a place to stay (a bed or a yard for a tent) to fellow cyclist.'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Q: What about bears?'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'We have lots to learn about camping in Canada and how to camp safely amongst bears is one of them.'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Q: What about your jobs?'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Michelle\'s company Sky has a leave of absence policy and she has requested and had approved the 3 months off needed.'
+          ),
+          '\xA0',
+          _react2.default.createElement(
+            'p',
+            null,
+            'Nathan\'s company which is much smaller has been very supportive of our endevor and has also granted him the time off.'
           )
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Michelle\'s company Sky has a leave of absence policy and she has requested and had approved the 3 months off needed.'
-        ),
-        _react2.default.createElement(
-          'p',
-          null,
-          'Nathan\'s company which is much smaller has been very supportive of our endevor and has also granted him the time off.'
         )
       )
     )
