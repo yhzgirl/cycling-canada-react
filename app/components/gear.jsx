@@ -1,8 +1,6 @@
 import React from 'react';
 import { Grid, Image, Row, Col, PageHeader } from 'react-bootstrap';
-
-require('../styles/App.scss');
-require('../styles/gear.scss');
+import styles from '../styles/gear.scss';
 
 export default () =>
 <div className="gear">

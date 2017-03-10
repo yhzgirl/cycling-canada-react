@@ -1,10 +1,7 @@
 import React from 'react';
 import { Navbar, NavDropdown, NavItem, Nav, MenuItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-
-
-require('../styles/App.scss');
-require('../styles/header.scss');
+import styles from '../styles/header.scss';
 
 export default function Header() {
   return (

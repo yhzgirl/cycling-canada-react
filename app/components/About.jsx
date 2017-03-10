@@ -1,8 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col, Image, PageHeader } from 'react-bootstrap';
-
-require('../styles/App.scss');
-require('../styles/about.scss');
+import styles from '../styles/about.scss';
 
 export default () =>
   <Grid id="about-us" fluid>

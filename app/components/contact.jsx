@@ -1,8 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col, Image, PageHeader } from 'react-bootstrap';
-
-require('../styles/App.scss');
-require('../styles/contact.scss');
+import styles from '../styles/contact.scss';
 
 export default () =>
   <Grid className="contact" id="contact-us">

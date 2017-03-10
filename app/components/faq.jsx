@@ -1,8 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col, PageHeader } from 'react-bootstrap';
-
-require('../styles/App.scss');
-require('../styles/faq.scss');
+import styles from '../styles/faq.scss';
 
 export default () =>
 <div>
@@ -19,7 +17,7 @@ export default () =>
         <h4><strong>Q: What about bears?</strong></h4>
         <p>We have lots to learn about camping in Canada and how to camp safely amongst bears is one of them.</p>
         <h4><strong>Q: What about your jobs?</strong></h4>
-        <p>Michelle's company Sky has a leave of absence policy and she has requested and had approved the 3 months off needed.</p> 
+        <p>Michelle's company Sky has a leave of absence policy and she has requested and had approved the 3 months off needed.</p>
         &nbsp;
         <p>Nathan's company which is much smaller has been very supportive of our endevor and has also granted him the time off.</p>
       </Col>

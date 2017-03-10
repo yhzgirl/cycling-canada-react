@@ -1,8 +1,6 @@
 import React from 'react';
-import { Grid, Row, Col, Image, PageHeader } from 'react-bootstrap';
-
-require('../styles/App.scss');
-require('../styles/home.scss');
+import { Grid, Row, Col, Image } from 'react-bootstrap';
+import styles from '../styles/home.scss';
 
 export default () =>
   <div>
@@ -27,7 +25,7 @@ export default () =>
       </Row>
       <Row>
         <Col className="youtube" lg={12}>
-          <h2>The Vlog - <strike>Follow</strike> Watch the adventure <i class="fa fa-share fa-rotate-90"></i></h2>
+          <h2>The Vlog - <strike>Follow</strike> Watch the adventure <i className="fa fa-share fa-rotate-90"></i></h2>
           <iframe className="center-block" width="560" height="350" src="https://www.youtube.com/embed/Ovl7Zcuq6Yc"/>
         </Col>
       </Row>

@@ -1,8 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-
-
-require('../styles/App.scss');
+import styles from '../styles/App.scss';
 
 export default() =>
 	<div className="footer">
