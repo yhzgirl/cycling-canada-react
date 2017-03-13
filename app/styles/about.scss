@@ -1,9 +1,7 @@
-// App.scss
+@import "App.scss";
 
 #about-us {
 	max-width: 1200px;
-	@media (max-width: 768px) {
-	}
 }
 
 .about {

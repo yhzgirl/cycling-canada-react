@@ -1,4 +1,4 @@
-// App.scss
+@import "App.scss";
 
 img {
 	width: 300px;
@@ -10,10 +10,10 @@ img {
 	max-width: 1200px;
 	i {
 		margin: 10px 20px;
-		color: #EB5700;
+		color: $orange;
 	}
 	a {
-		color: #0196D5;
+		color: $sky-blue;
 		&:hover {
 			text-decoration: none;
 			color: rgba(1, 150, 213, 0.65);
