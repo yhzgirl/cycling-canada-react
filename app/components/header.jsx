@@ -13,7 +13,7 @@ export default function Header() {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav bsStyle="pills" className="menu" pullLeft>
-            <li role="presentation"><a href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw">Vlog</a></li>
+            <li role="presentation"><a href="https://www.youtube.com/playlist?list=PLC89iFKPZDsaRgAXTsGUYLqussx49UF_q">Vlogs</a></li>
 
             <LinkContainer to="/route_map">
               <NavItem eventKey={2} >Route</NavItem>
@@ -52,7 +52,7 @@ export default function Header() {
             </li>
 
             <li role="presentation">
-              <a href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw">
+              <a href="https://www.youtube.com/c/rideoncycling">
                 <i className="fa fa-youtube-square fa-2x" />
               </a>
             </li>

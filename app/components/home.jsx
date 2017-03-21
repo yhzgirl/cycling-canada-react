@@ -16,7 +16,7 @@ export default () =>
           </p> &nbsp;
 
           <p>Here you&#39;ll find information about our gear, route and if you would like to see our video
-            diaries you will find them on our <a href="https://www.youtube.com/channel/UCgZu2jNyVKDtqoq0zTUCDnw">
+            diaries you will find them on our <a href="https://www.youtube.com/playlist?list=PLC89iFKPZDsaRgAXTsGUYLqussx49UF_q">
               YouTube channel</a>
           </p>&nbsp;
 
@@ -26,7 +26,7 @@ export default () =>
       <Row>
         <Col className="youtube" lg={12}>
           <h2>The Vlog - <strike>Follow</strike> Watch the adventure <i className="fa fa-share fa-rotate-90"></i></h2>
-          <iframe className="center-block" width="560" height="350" src="https://www.youtube.com/embed/Ovl7Zcuq6Yc"/>
+          <iframe className="center-block" width="560" height="350" src="https://www.youtube.com/embed/NI3GfnHYi5M?list=PLC89iFKPZDsaRgAXTsGUYLqussx49UF_q"/>
         </Col>
       </Row>
         <Row>
