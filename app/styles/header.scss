@@ -32,6 +32,9 @@
   li.dropdown.open {
     background: $white;
     color:  #0196d5;
+    a {
+      color: $sky-blue;
+    }
   }
 
   a {
