@@ -6,7 +6,7 @@ export default () =>
   <Grid id="about-us" fluid>
     <Row>
       <Col xs={12} lg={6} className="about">
-        <PageHeader >Nathan</PageHeader>
+        <PageHeader >Nathan Acton</PageHeader>
         <Image src="images/nathan.jpg" circle responsive />
         <div className="text">
           <p>It all started in 2012. The London Olympics were coming to town and myself and
@@ -61,7 +61,7 @@ export default () =>
         </div>
       </Col>
       <Col xs={12} lg={6} className="about">
-        <PageHeader >Michelle</PageHeader>
+        <PageHeader >Michelle Brideau</PageHeader>
         <Image src="images/michelle.jpg" circle responsive />
         <div className="text">
           <p>Towards the end of 2014 after I had recovered from surgery for Crohn&#39;s to remove a

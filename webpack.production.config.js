@@ -1,42 +1,59 @@
 const webpack = require('webpack');
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-
-const uglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  devtool: 'cheap-source-map',
-  entry: [
-    path.resolve(__dirname, 'app/main.jsx')
-  ],
+  devServer: {
+    historyApiFallback: true,
+    hot: true,
+    inline: true,
+    contentBase: './app',
+    port: 8080
+  },
+  entry: path.resolve(__dirname, 'app/main.jsx'),
   output: {
     path: path.resolve(__dirname, 'build'),
     publicPath: '/',
     filename: './bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.css$/, include: path.resolve(__dirname, 'app'), loader: 'style-loader!css-loader' },
-      { test: /\.js[x]?$/, include: path.resolve(__dirname, 'app'), exclude: /node_modules/, loader: 'babel-loader' }
+    rules: [{
+      test: /\.scss|sass$/,
+      use: [{
+        loader: 'style-loader' // creates style nodes from JS strings
+      }, {
+        loader: 'css-loader' // translates CSS into CommonJS
+      }, {
+        loader: 'sass-loader' // compiles Sass to CSS
+      }]
+    },
+    {
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+        use: 'css-loader'
+      })
+    },
+    {
+      test: /\.js[x]?$/,
+      exclude: [/node_modules/],
+      use: [{
+        loader: 'babel-loader',
+        options: {
+          presets: ['es2015']
+        }
+      }],
+    }
     ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
   },
   plugins: [
-    new uglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
+    new webpack.HotModuleReplacementPlugin(),
+    new OpenBrowserPlugin({
+      url: 'http://localhost:8080'
     }),
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production')
-      }
-    }),
-    new CopyWebpackPlugin([
-      { from: './app/index.html', to: 'index.html' },
-      { from: './app/main.css', to: 'main.css' }
-    ])
+    new ExtractTextPlugin('styles.css')
   ]
 };
